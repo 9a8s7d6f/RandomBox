@@ -1,25 +1,43 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
-	},
-	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
+		"name": "Random Box",
+		"cost": 1,
+		"uniques": [
+			"Provides [+1] [C1] <with [80]% chance>",
+			"Provides [+1] [C1] <with [75]% chance> <when number of [C1] is equal to [1]>",
+			"Provides [+1] [C1] <with [66]% chance> <when number of [C1] is equal to [2]>",
+			"Provides [+1] [C1] <with [50]% chance> <when number of [C1] is equal to [3]>",
+			// C1이 0일때, 1일때 2일때 3일때 4일때로 나뉨.,
+			
+			"Provides [+1] [V01] <when number of [C1] is equal to [0]>",
+			"Provides [+1] [V01] <with [75]% chance> <when number of [V01] is equal to [1]>",
+			"Provides [+1] [V01] <with [66]% chance> <when number of [V01] is equal to [2]>",
+			"Provides [+1] [V01] <with [50]% chance> <when number of [V01] is equal to [3]>",
+
+			"Provides [+1] [V02] <when number of [C1] is equal to [1]>",
+			"Provides [+1] [V02] <with [75]% chance> <when number of [V01] is equal to [1]>",
+			"Provides [+1] [V02] <with [66]% chance> <when number of [V01] is equal to [2]>",
+			"Provides [+1] [V02] <with [50]% chance> <when number of [V01] is equal to [3]>",
+
+			"Provides [+1] [V03] <when number of [C1] is equal to [2]>",
+			"Provides [+1] [V03] <with [75]% chance> <when number of [V01] is equal to [1]>",
+			"Provides [+1] [V03] <with [66]% chance> <when number of [V01] is equal to [2]>",
+			"Provides [+1] [V03] <with [50]% chance> <when number of [V01] is equal to [3]>",
+
+			"Provides [+1] [V04] <when number of [C1] is equal to [3]>",
+			"Provides [+1] [V04] <with [75]% chance> <when number of [V01] is equal to [1]>",
+			"Provides [+1] [V04] <with [66]% chance> <when number of [V01] is equal to [2]>",
+			"Provides [+1] [V04] <with [50]% chance> <when number of [V01] is equal to [3]>",
+
+			"Provides [+1] [V05] <when number of [C1] is equal to [4]>",
+			"Provides [+1] [V05] <with [75]% chance> <when number of [V01] is equal to [1]>",
+			"Provides [+1] [V05] <with [66]% chance> <when number of [V01] is equal to [2]>",
+			"Provides [+1] [V05] <with [50]% chance> <when number of [V01] is equal to [3]>",
+
+			// V01~V05가 1~4까지의 범위를 가짐.,
+
+
+			
+		]
 	}
 ]
